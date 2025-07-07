@@ -1,0 +1,23 @@
+version: '3.7'
+services:
+  postgresql_db:
+    image: postgres:latest
+    restart: always
+    volumes:
+      - ./data/db:/var/lib/postgresql/data
+      - ./tables/users.sql:/docker-entrypoint-initdb.d/users.sql
+      - ./tables/roles.sql:/docker-entrypoint-initdb.d/roles.sql
+      - ./tables/admins.sql:/docker-entrypoint-initdb.d/admins.sql
+      - ./tables/customers.sql:/docker-entrypoint-initdb.d/customers.sql
+      - ./tables/customer_review.sql:/docker-entrypoint-initdb.d/customer_review.sql
+      - ./tables/payments.sql:/docker-entrypoint-initdb.d/payments.sql
+      - ./tables/promotion.sql:/docker-entrypoint-initdb.d/promotion.sql
+      - ./tables/reservations.sql:/docker-entrypoint-initdb.d/reservations.sql
+      - ./tables/rooms.sql:/docker-entrypoint-initdb.d/rooms.sql
+      - ./tables/roomtypes.sql:/docker-entrypoint-initdb.d/roomtypes.sql
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=superuser

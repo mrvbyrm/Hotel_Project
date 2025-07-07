@@ -1,0 +1,402 @@
+[
+    {
+        "id": 1,
+        "amount": 3000.00,
+        "status": "completed",
+        "created_at": "2024-08-15T14:30:00Z",
+        "reservation_id": 1,
+        "payment_date": "2024-08-15T14:35:00Z",
+        "payment_method": "credit_card",
+        "updated_at": "2024-08-15T14:40:00Z"
+    },
+    {
+        "id": 2,
+        "amount": 2500.00,
+        "status": "completed",
+        "created_at": "2024-08-16T10:00:00Z",
+        "reservation_id": 2,
+        "payment_date": "2024-08-16T10:05:00Z",
+        "payment_method": "bank_transfer",
+        "updated_at": "2024-08-16T10:10:00Z"
+    },
+    {
+        "id": 3,
+        "amount": 1200.00,
+        "status": "completed",
+        "created_at": "2024-08-17T09:00:00Z",
+        "reservation_id": 3,
+        "payment_date": "2024-08-17T09:05:00Z",
+        "payment_method": "credit_card",
+        "updated_at": "2024-08-17T09:10:00Z"
+    },
+    {
+        "id": 4,
+        "amount": 1800.00,
+        "status": "pending",
+        "created_at": "2024-08-18T16:00:00Z",
+        "reservation_id": 4,
+        "payment_date": "2024-08-18T16:05:00Z",
+        "payment_method": "paypal",
+        "updated_at": "2024-08-18T16:10:00Z"
+    },
+    {
+        "id": 5,
+        "amount": 1000.00,
+        "status": "completed",
+        "created_at": "2024-08-19T12:00:00Z",
+        "reservation_id": 5,
+        "payment_date": "2024-08-19T12:05:00Z",
+        "payment_method": "cash",
+        "updated_at": "2024-08-19T12:10:00Z"
+    },
+    {
+        "id": 6,
+        "amount": 3000.00,
+        "status": "completed",
+        "created_at": "2024-08-15T14:30:00Z",
+        "reservation_id": 6,
+        "payment_date": "2024-08-15T14:35:00Z",
+        "payment_method": "credit_card",
+        "updated_at": "2024-08-15T14:40:00Z"
+    },
+    {
+        "id": 7,
+        "amount": 2500.00,
+        "status": "completed",
+        "created_at": "2024-08-16T10:00:00Z",
+        "reservation_id": 7,
+        "payment_date": "2024-08-16T10:05:00Z",
+        "payment_method": "bank_transfer",
+        "updated_at": "2024-08-16T10:10:00Z"
+    },
+    {
+        "id": 8,
+        "amount": 1200.00,
+        "status": "completed",
+        "created_at": "2024-08-17T09:00:00Z",
+        "reservation_id": 8,
+        "payment_date": "2024-08-17T09:05:00Z",
+        "payment_method": "credit_card",
+        "updated_at": "2024-08-17T09:10:00Z"
+    },
+    {
+        "id": 9,
+        "amount": 1800.00,
+        "status": "pending",
+        "created_at": "2024-08-18T16:00:00Z",
+        "reservation_id": 9,
+        "payment_date": "2024-08-18T16:05:00Z",
+        "payment_method": "paypal",
+        "updated_at": "2024-08-18T16:10:00Z"
+    },
+    {
+        "id": 10,
+        "amount": 1000.00,
+        "status": "completed",
+        "created_at": "2024-08-19T12:00:00Z",
+        "reservation_id": 10,
+        "payment_date": "2024-08-19T12:05:00Z",
+        "payment_method": "cash",
+        "updated_at": "2024-08-19T12:10:00Z"
+    },
+    {
+        "id": 11,
+        "amount": 3000.00,
+        "status": "completed",
+        "created_at": "2024-08-15T14:30:00Z",
+        "reservation_id": 11,
+        "payment_date": "2024-08-15T14:35:00Z",
+        "payment_method": "credit_card",
+        "updated_at": "2024-08-15T14:40:00Z"
+    },
+    {
+        "id": 12,
+        "amount": 2500.00,
+        "status": "completed",
+        "created_at": "2024-08-16T10:00:00Z",
+        "reservation_id": 12,
+        "payment_date": "2024-08-16T10:05:00Z",
+        "payment_method": "bank_transfer",
+        "updated_at": "2024-08-16T10:10:00Z"
+    },
+    {
+        "id": 13,
+        "amount": 1200.00,
+        "status": "completed",
+        "created_at": "2024-08-17T09:00:00Z",
+        "reservation_id": 13,
+        "payment_date": "2024-08-17T09:05:00Z",
+        "payment_method": "credit_card",
+        "updated_at": "2024-08-17T09:10:00Z"
+    },
+    {
+        "id": 14,
+        "amount": 1800.00,
+        "status": "pending",
+        "created_at": "2024-08-18T16:00:00Z",
+        "reservation_id": 14,
+        "payment_date": "2024-08-18T16:05:00Z",
+        "payment_method": "paypal",
+        "updated_at": "2024-08-18T16:10:00Z"
+    },
+    {
+        "id": 15,
+        "amount": 1000.00,
+        "status": "completed",
+        "created_at": "2024-08-19T12:00:00Z",
+        "reservation_id": 15,
+        "payment_date": "2024-08-19T12:05:00Z",
+        "payment_method": "cash",
+        "updated_at": "2024-08-19T12:10:00Z"
+    },
+    {
+        "id": 16,
+        "amount": 3000.00,
+        "status": "completed",
+        "created_at": "2024-08-15T14:30:00Z",
+        "reservation_id": 16,
+        "payment_date": "2024-08-15T14:35:00Z",
+        "payment_method": "credit_card",
+        "updated_at": "2024-08-15T14:40:00Z"
+    },
+    {
+        "id": 17,
+        "amount": 2500.00,
+        "status": "completed",
+        "created_at": "2024-08-16T10:00:00Z",
+        "reservation_id": 17,
+        "payment_date": "2024-08-16T10:05:00Z",
+        "payment_method": "bank_transfer",
+        "updated_at": "2024-08-16T10:10:00Z"
+    },
+    {
+        "id": 18,
+        "amount": 1200.00,
+        "status": "completed",
+        "created_at": "2024-08-17T09:00:00Z",
+        "reservation_id": 18,
+        "payment_date": "2024-08-17T09:05:00Z",
+        "payment_method": "credit_card",
+        "updated_at": "2024-08-17T09:10:00Z"
+    },
+    {
+        "id": 19,
+        "amount": 1800.00,
+        "status": "pending",
+        "created_at": "2024-08-18T16:00:00Z",
+        "reservation_id": 19,
+        "payment_date": "2024-08-18T16:05:00Z",
+        "payment_method": "paypal",
+        "updated_at": "2024-08-18T16:10:00Z"
+    },
+    {
+        "id": 20,
+        "amount": 1000.00,
+        "status": "completed",
+        "created_at": "2024-08-19T12:00:00Z",
+        "reservation_id": 20,
+        "payment_date": "2024-08-19T12:05:00Z",
+        "payment_method": "cash",
+        "updated_at": "2024-08-19T12:10:00Z"
+    },
+    {
+        "id": 21,
+        "amount": 3000.00,
+        "status": "completed",
+        "created_at": "2024-08-15T14:30:00Z",
+        "reservation_id": 21,
+        "payment_date": "2024-08-15T14:35:00Z",
+        "payment_method": "credit_card",
+        "updated_at": "2024-08-15T14:40:00Z"
+    },
+    {
+        "id": 22,
+        "amount": 2500.00,
+        "status": "completed",
+        "created_at": "2024-08-16T10:00:00Z",
+        "reservation_id": 22,
+        "payment_date": "2024-08-16T10:05:00Z",
+        "payment_method": "bank_transfer",
+        "updated_at": "2024-08-16T10:10:00Z"
+    },
+    {
+        "id": 23,
+        "amount": 1200.00,
+        "status": "completed",
+        "created_at": "2024-08-17T09:00:00Z",
+        "reservation_id": 23,
+        "payment_date": "2024-08-17T09:05:00Z",
+        "payment_method": "credit_card",
+        "updated_at": "2024-08-17T09:10:00Z"
+    },
+    {
+        "id": 24,
+        "amount": 1800.00,
+        "status": "pending",
+        "created_at": "2024-08-18T16:00:00Z",
+        "reservation_id": 24,
+        "payment_date": "2024-08-18T16:05:00Z",
+        "payment_method": "paypal",
+        "updated_at": "2024-08-18T16:10:00Z"
+    },
+    {
+        "id": 25,
+        "amount": 1000.00,
+        "status": "completed",
+        "created_at": "2024-08-19T12:00:00Z",
+        "reservation_id": 25,
+        "payment_date": "2024-08-19T12:05:00Z",
+        "payment_method": "cash",
+        "updated_at": "2024-08-19T12:10:00Z"
+    },
+    {
+        "id": 26,
+        "amount": 3000.00,
+        "status": "completed",
+        "created_at": "2024-08-15T14:30:00Z",
+        "reservation_id": 26,
+        "payment_date": "2024-08-15T14:35:00Z",
+        "payment_method": "credit_card",
+        "updated_at": "2024-08-15T14:40:00Z"
+    },
+    {
+        "id": 27,
+        "amount": 2500.00,
+        "status": "completed",
+        "created_at": "2024-08-16T10:00:00Z",
+        "reservation_id": 27,
+        "payment_date": "2024-08-16T10:05:00Z",
+        "payment_method": "bank_transfer",
+        "updated_at": "2024-08-16T10:10:00Z"
+    },
+    {
+        "id": 28,
+        "amount": 1200.00,
+        "status": "completed",
+        "created_at": "2024-08-17T09:00:00Z",
+        "reservation_id": 28,
+        "payment_date": "2024-08-17T09:05:00Z",
+        "payment_method": "credit_card",
+        "updated_at": "2024-08-17T09:10:00Z"
+    },
+    {
+        "id": 29,
+        "amount": 1800.00,
+        "status": "pending",
+        "created_at": "2024-08-18T16:00:00Z",
+        "reservation_id": 29,
+        "payment_date": "2024-08-18T16:05:00Z",
+        "payment_method": "paypal",
+        "updated_at": "2024-08-18T16:10:00Z"
+    },
+    {
+        "id": 30,
+        "amount": 1000.00,
+        "status": "completed",
+        "created_at": "2024-08-19T12:00:00Z",
+        "reservation_id": 30,
+        "payment_date": "2024-08-19T12:05:00Z",
+        "payment_method": "cash",
+        "updated_at": "2024-08-19T12:10:00Z"
+    },
+    {
+        "id": 31,
+        "amount": 3000.00,
+        "status": "completed",
+        "created_at": "2024-08-15T14:30:00Z",
+        "reservation_id": 31,
+        "payment_date": "2024-08-15T14:35:00Z",
+        "payment_method": "credit_card",
+        "updated_at": "2024-08-15T14:40:00Z"
+    },
+    {
+        "id": 32,
+        "amount": 2500.00,
+        "status": "completed",
+        "created_at": "2024-08-16T10:00:00Z",
+        "reservation_id": 32,
+        "payment_date": "2024-08-16T10:05:00Z",
+        "payment_method": "bank_transfer",
+        "updated_at": "2024-08-16T10:10:00Z"
+    },
+    {
+        "id": 33,
+        "amount": 1200.00,
+        "status": "completed",
+        "created_at": "2024-08-17T09:00:00Z",
+        "reservation_id": 33,
+        "payment_date": "2024-08-17T09:05:00Z",
+        "payment_method": "credit_card",
+        "updated_at": "2024-08-17T09:10:00Z"
+    },
+    {
+        "id": 34,
+        "amount": 1800.00,
+        "status": "pending",
+        "created_at": "2024-08-18T16:00:00Z",
+        "reservation_id": 34,
+        "payment_date": "2024-08-18T16:05:00Z",
+        "payment_method": "paypal",
+        "updated_at": "2024-08-18T16:10:00Z"
+    },
+    {
+        "id": 35,
+        "amount": 1000.00,
+        "status": "completed",
+        "created_at": "2024-08-19T12:00:00Z",
+        "reservation_id": 35,
+        "payment_date": "2024-08-19T12:05:00Z",
+        "payment_method": "cash",
+        "updated_at": "2024-08-19T12:10:00Z"
+    },
+    {
+        "id": 36,
+        "amount": 3000.00,
+        "status": "completed",
+        "created_at": "2024-08-15T14:30:00Z",
+        "reservation_id": 36,
+        "payment_date": "2024-08-15T14:35:00Z",
+        "payment_method": "credit_card",
+        "updated_at": "2024-08-15T14:40:00Z"
+    },
+    {
+        "id": 37,
+        "amount": 2500.00,
+        "status": "completed",
+        "created_at": "2024-08-16T10:00:00Z",
+        "reservation_id": 37,
+        "payment_date": "2024-08-16T10:05:00Z",
+        "payment_method": "bank_transfer",
+        "updated_at": "2024-08-16T10:10:00Z"
+    },
+    {
+        "id": 38,
+        "amount": 1200.00,
+        "status": "completed",
+        "created_at": "2024-08-17T09:00:00Z",
+        "reservation_id": 38,
+        "payment_date": "2024-08-17T09:05:00Z",
+        "payment_method": "credit_card",
+        "updated_at": "2024-08-17T09:10:00Z"
+    },
+    {
+        "id": 39,
+        "amount": 1800.00,
+        "status": "pending",
+        "created_at": "2024-08-18T16:00:00Z",
+        "reservation_id": 39,
+        "payment_date": "2024-08-18T16:05:00Z",
+        "payment_method": "paypal",
+        "updated_at": "2024-08-18T16:10:00Z"
+    },
+    {
+        "id": 40,
+        "amount": 1000.00,
+        "status": "completed",
+        "created_at": "2024-08-19T12:00:00Z",
+        "reservation_id": 40,
+        "payment_date": "2024-08-19T12:05:00Z",
+        "payment_method": "cash",
+        "updated_at": "2024-08-19T12:10:00Z"
+    }
+]

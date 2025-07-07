@@ -1,0 +1,56 @@
+[
+    {
+        "type_id": 1,
+        "type_name": "Single",
+        "description": "Tek kişilik oda",
+        "number_of_rooms": 10,
+        "price": 1000.00,
+        "create_date": "2024-08-15T00:00:00Z",
+        "update_date": "2024-08-15T00:00:00Z"
+    },
+    {
+        "type_id":2,
+        "type_name": "Double",
+        "description": "Çift kişilik oda",
+        "number_of_rooms": 15,
+        "price": 1200.00,
+        "create_date": "2024-08-15T00:00:00Z",
+        "update_date": "2024-08-15T00:00:00Z"
+    },
+    {
+        "type_id":3,
+        "type_name": "Suite",
+        "description": "Suit oda",
+        "number_of_rooms": 5,
+        "price": 2500.00,
+        "create_date": "2024-08-15T00:00:00Z",
+        "update_date": "2024-08-15T00:00:00Z"
+    },
+    {
+        "type_id":4,
+        "type_name": "Deluxe",
+        "description": "Lüks oda",
+        "number_of_rooms": 8,
+        "price": 3000.00,
+        "create_date": "2024-08-15T00:00:00Z",
+        "update_date": "2024-08-15T00:00:00Z"
+    },
+    {
+        "type_id":5,
+        "type_name": "Family",
+        "description": "Aile odası",
+        "number_of_rooms": 6,
+        "price": 1800.00,
+        "create_date": "2024-08-15T00:00:00Z",
+        "update_date": "2024-08-15T00:00:00Z"
+    },
+    {
+        "type_id":6,
+        "type_name": "Standard",
+        "description": "Standart oda",
+        "number_of_rooms": 12,
+        "price": 1000.00,
+        "create_date": "2024-08-15T00:00:00Z",
+        "update_date": "2024-08-15T00:00:00Z"
+    }
+]
