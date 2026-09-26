@@ -48,7 +48,7 @@ go mod download
 go run main.go
 ```
 
-Uygulama varsayılan olarak `8081` portunda çalışır (ortam değişkeni `PORT` ile değiştirilebilir). PostgreSQL bağlantı bilgilerini `config/db.go` içinden düzenleyebilirsiniz.
+Uygulama varsayılan olarak `8081` portunda çalışır (ortam değişkeni `PORT` ile değiştirilebilir). Veritabanı bağlantı bilgileri `DB_HOST`, `DB_USER`, `DB_PASSWORD`, `DB_NAME`, `DB_PORT` ortam değişkenleriyle yapılandırılır; örnek değerler için `.env.example` dosyasına bakın.
 
 ## İletişim
 

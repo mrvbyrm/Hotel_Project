@@ -3,6 +3,7 @@ package config
 import (
 	"fmt"
 	"log"
+	"os"
 	"time"
 
 	"gorm.io/driver/postgres"
@@ -12,9 +13,23 @@ import (
 
 var DB *gorm.DB // Publicly accessible database connection
 
+func getEnv(key, fallback string) string {
+	if value := os.Getenv(key); value != "" {
+		return value
+	}
+	return fallback
+}
+
 // Connect establishes a database connection, performs migrations, and checks the connection status
 func Connect() error {
-	const dsn = "host=localhost user=postgres password=superuser dbname=postgres port=5432 sslmode=disable TimeZone=Europe/Istanbul"
+	dsn := fmt.Sprintf(
+		"host=%s user=%s password=%s dbname=%s port=%s sslmode=disable TimeZone=Europe/Istanbul",
+		getEnv("DB_HOST", "localhost"),
+		getEnv("DB_USER", "postgres"),
+		getEnv("DB_PASSWORD", "superuser"),
+		getEnv("DB_NAME", "postgres"),
+		getEnv("DB_PORT", "5432"),
+	)
 	var err error
 	DB, err = gorm.Open(postgres.Open(dsn), &gorm.Config{})
 	if err != nil {
